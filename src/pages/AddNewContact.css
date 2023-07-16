@@ -1,0 +1,55 @@
+.input__container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__form{
+    padding:20px ;
+    background-color: #777;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+.input input{
+    display: block;
+    width: 90%;
+    height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 10px 0;
+
+}
+
+.input label{
+    font-size: 1.6rem;
+    color: #222;
+    font-weight: 500;
+}
+
+.submit{
+    background-color: rgba(0, 128, 0, 0.473);
+    color: #fff;
+    font-size: 1.6rem;
+}
+.submit:hover{
+    background-color: rgba(0, 128, 0, 0.788);
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,56 @@
+.dialogbox-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #cccccc69;
+}
+.dialogbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 20px 5px  rgba(51, 50, 50, 0.61);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.dialogbox h2{
+    color: black;
+}
+.dialogbox__btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 24%;
+}
+.dialogbox__btns button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+.dialogbox__btns .true__btn{
+    background-color: rgba(0, 128, 0, 0.658);
+}
+.dialogbox__btns .false__btn{
+    background-color: rgba(255, 0, 0, 0.418);
+}
+.dialogbox__btns .true__btn:hover{
+    background-color: green;
+}
+.dialogbox__btns .false__btn:hover{
+    background-color: red;
+}

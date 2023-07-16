@@ -1,0 +1,36 @@
+.contact__info-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.contact__info__list{
+    margin-top: 40px;
+    background-color: #ccc;
+    width: 400px;
+    list-style: none;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+.contact__info__list div{
+   display: flex;
+   align-items: center;
+   color: #222;
+   
+}
+.contact__info__list span{
+    margin-left: 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.info{
+    background-color: #222;
+    color: #fff;
+    opacity: .7;
+}
+.info:hover{
+    opacity: 1;
+}

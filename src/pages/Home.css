@@ -1,0 +1,66 @@
+.list-container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.list__header{
+  width: 100%;
+  border-bottom: 1px solid #ccc ;
+  padding-bottom: 10px;
+}
+
+.btn{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3 ease-in-out;
+    font-size: 1.2rem;
+}
+.add{
+    background-color: rgba(0, 128, 0, 0.521);
+    color: #fff;
+    
+}
+
+.btn.add:hover{
+    background-color: rgba(0, 128, 0, 0.829);
+
+    
+}
+
+.delete{
+    background-color: rgba(226, 6, 24, 0.432);
+    color: #fff;margin-right: 10px;
+    
+}
+.delete:hover{
+    background-color: rgba(226, 6, 24, 0.986);
+    color: #fff;margin-right: 10px;
+    
+}
+
+.edit{
+    background-color: #777;
+    color: #222;
+    margin-left: 10px;
+    
+}
+.edit:hover{
+    background-color: #ccc;
+    
+
+}
+.editlink{
+    text-decoration: none;
+    color: #222;
+}
+.error{
+    font-size: 1.6rem;
+    color: rgb(1, 41, 1);
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 0.288);
+    border-radius: 5px;
+
+
+}
