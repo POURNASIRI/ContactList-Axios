@@ -32,7 +32,7 @@ export default function ContactList() {
                 setError(false)
             }catch (e){
                 setError(true)
-                
+                setIsLoading(false)
             }
         }
         getContactData();
